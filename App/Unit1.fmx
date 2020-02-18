@@ -1,0 +1,455 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 360
+  Fill.Kind = Solid
+  StyleBook = StyleBook1
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnShow = FormShow
+  DesignerMasterStyle = 2
+  object TabControl1: TTabControl
+    Align = Client
+    Size.Width = 360.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 0
+    TabPosition = PlatformDefault
+    Sizes = (
+      360s
+      431s
+      360s
+      431s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 180.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Cadastro'
+      ExplicitSize.cx = 180.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object Layout1: TLayout
+        Align = Client
+        Margins.Left = 10.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Margins.Right = 10.000000000000000000
+        Margins.Bottom = 10.000000000000000000
+        Size.Width = 340.000000000000000000
+        Size.Height = 307.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Layout2: TLayout
+          Align = Top
+          Size.Width = 340.000000000000000000
+          Size.Height = 121.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object Circle1: TCircle
+            Align = Center
+            Fill.Color = claDodgerblue
+            Size.Width = 100.000000000000000000
+            Size.Height = 100.000000000000000000
+            Size.PlatformDefault = False
+            Stroke.Kind = None
+          end
+          object SpeedButton3: TSpeedButton
+            IconTintColor = claDodgerblue
+            Position.X = 212.000000000000000000
+            Position.Y = 77.000000000000000000
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'cameratoolbuttonbordered'
+            Text = 'SpeedButton3'
+            OnClick = SpeedButton3Click
+          end
+          object SpeedButton4: TSpeedButton
+            IconTintColor = claDodgerblue
+            Position.X = 211.000000000000000000
+            Position.Y = 48.000000000000000000
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'organizetoolbutton'
+            Text = 'SpeedButton4'
+            OnClick = SpeedButton4Click
+          end
+        end
+        object Layout3: TLayout
+          Align = Top
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Position.Y = 121.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          object edtNome: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 0
+            Size.Width = 330.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Nome'
+          end
+        end
+        object Layout4: TLayout
+          Align = Top
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Position.Y = 241.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          object edtTelefone: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 0
+            Size.Width = 330.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'Telefone'
+          end
+        end
+        object Layout5: TLayout
+          Align = Top
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Position.Y = 201.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object edtEmail: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 0
+            Size.Width = 330.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'E-mail'
+          end
+        end
+        object Layout6: TLayout
+          Align = Top
+          Padding.Left = 5.000000000000000000
+          Padding.Top = 5.000000000000000000
+          Padding.Right = 5.000000000000000000
+          Padding.Bottom = 5.000000000000000000
+          Position.Y = 161.000000000000000000
+          Size.Width = 340.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          object edtCPF: TEdit
+            Touch.InteractiveGestures = [LongTap, DoubleTap]
+            Align = Client
+            TabOrder = 0
+            Size.Width = 330.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TextPrompt = 'CPF'
+          end
+        end
+      end
+      object Layout7: TLayout
+        Align = Bottom
+        Margins.Bottom = 20.000000000000000000
+        Position.Y = 371.000000000000000000
+        Size.Width = 360.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object Rectangle2: TRectangle
+          Align = Center
+          Fill.Color = claDodgerblue
+          Size.Width = 232.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          XRadius = 10.000000000000000000
+          YRadius = 10.000000000000000000
+          OnClick = Rectangle2Click
+          object Label2: TLabel
+            Align = Center
+            StyledSettings = [Family, Size]
+            TextSettings.Font.StyleExt = {00070000000000000004000000}
+            TextSettings.FontColor = claWhite
+            TextSettings.HorzAlign = Center
+            Text = 'SALVAR'
+            TabOrder = 0
+          end
+        end
+      end
+      object ToolBar1: TToolBar
+        Size.Width = 360.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle1: TRectangle
+          Align = Client
+          Fill.Color = claDodgerblue
+          Size.Width = 360.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          object SpeedButton1: TSpeedButton
+            Align = Right
+            StyledSettings = [Size, Style]
+            IconTintColor = claWhite
+            Position.X = 316.000000000000000000
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'searchtoolbuttonbordered'
+            TextSettings.Font.Family = 'Segoe Script'
+            TextSettings.FontColor = xFF063D6A
+            OnClick = SpeedButton1Click
+          end
+        end
+        object Label1: TLabel
+          Align = Center
+          StyledSettings = [Style]
+          Size.Width = 229.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Segoe Script'
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.FontColor = xFF04335A
+          TextSettings.HorzAlign = Center
+          Text = 'Delphi na Veia'
+          TabOrder = 1
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 180.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = ''
+      TabOrder = 0
+      Text = 'Listagem'
+      ExplicitSize.cx = 180.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object ListView1: TListView
+        ItemAppearanceClassName = 'TDynamicAppearance'
+        ItemEditAppearanceClassName = 'TDynamicAppearance'
+        HeaderAppearanceClassName = 'TListHeaderObjects'
+        FooterAppearanceClassName = 'TListHeaderObjects'
+        Align = Client
+        Size.Width = 360.000000000000000000
+        Size.Height = 387.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ItemAppearance.ItemHeight = 75
+        ItemAppearanceObjects.ItemObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'Text1'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 13.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextVertAlign = Leading
+            Appearance.TextColor = xFF282828
+            Appearance.Width = 277.000000000000000000
+            Appearance.Height = 18.000000000000000000
+            Appearance.PlaceOffset.X = 62.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'Text2'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 13.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextColor = xFF282828
+            Appearance.Width = 277.000000000000000000
+            Appearance.Height = 18.000000000000000000
+            Appearance.PlaceOffset.X = 62.000000000000000000
+            Appearance.PlaceOffset.Y = 17.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'Text3'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 13.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextColor = xFF282828
+            Appearance.Width = 277.000000000000000000
+            Appearance.Height = 18.000000000000000000
+            Appearance.PlaceOffset.X = 62.000000000000000000
+            Appearance.PlaceOffset.Y = 34.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'Text4'
+            AppearanceClassName = 'TTextObjectAppearance'
+            Appearance.Font.Size = 13.000000000000000000
+            Appearance.TextAlign = Leading
+            Appearance.TextColor = xFF282828
+            Appearance.Width = 277.000000000000000000
+            Appearance.Height = 18.000000000000000000
+            Appearance.PlaceOffset.X = 62.000000000000000000
+            Appearance.PlaceOffset.Y = 51.000000000000000000
+          end
+          item
+            AppearanceObjectName = 'Image5'
+            AppearanceClassName = 'TImageObjectAppearance'
+            Appearance.Width = 55.000000000000000000
+            Appearance.Height = 55.000000000000000000
+            Appearance.PlaceOffset.X = 1.000000000000000000
+            Appearance.PlaceOffset.Y = 9.000000000000000000
+          end>
+        ItemAppearanceObjects.ItemEditObjects.ObjectsCollection = <
+          item
+            AppearanceObjectName = 'Text1'
+            AppearanceClassName = 'TTextObjectAppearance'
+          end>
+        OnItemClick = ListView1ItemClick
+        OnPullRefresh = ListView1PullRefresh
+        PullToRefresh = True
+        PullRefreshWait = True
+        object Circle2: TCircle
+          Anchors = [akRight, akBottom]
+          Fill.Color = claDodgerblue
+          Position.X = 288.000000000000000000
+          Position.Y = 317.000000000000000000
+          Size.Width = 66.000000000000000000
+          Size.Height = 66.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+          OnClick = Circle2Click
+          object SpeedButton5: TSpeedButton
+            Align = Center
+            HitTest = False
+            IconTintColor = claWhite
+            Size.Width = 44.000000000000000000
+            Size.Height = 44.000000000000000000
+            Size.PlatformDefault = False
+            StyleLookup = 'addtoolbuttonbordered'
+            Text = 'SpeedButton5'
+          end
+        end
+      end
+      object ToolBar2: TToolBar
+        Size.Width = 360.000000000000000000
+        Size.Height = 44.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 2
+        object Rectangle3: TRectangle
+          Align = Client
+          Fill.Color = claDodgerblue
+          Size.Width = 360.000000000000000000
+          Size.Height = 44.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Kind = None
+        end
+        object Label3: TLabel
+          Align = Center
+          StyledSettings = [Style]
+          Size.Width = 229.000000000000000000
+          Size.Height = 30.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Segoe Script'
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.FontColor = xFF04335A
+          TextSettings.HorzAlign = Center
+          Text = 'Delphi na Veia'
+          TabOrder = 2
+        end
+      end
+    end
+  end
+  object StyleBook1: TStyleBook
+    Styles = <
+      item
+      end>
+    Left = 328
+    Top = 112
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = ClientModule1.FdCliente
+    ScopeMappings = <>
+    Left = 328
+    Top = 168
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 332
+    Top = 53
+    object LinkListControlToField1: TLinkListControlToField
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      Control = ListView1
+      FillExpressions = <
+        item
+          SourceMemberName = 'NOME'
+          ControlMemberName = 'Text1'
+        end
+        item
+          SourceMemberName = 'CPF'
+          ControlMemberName = 'Text2'
+        end
+        item
+          SourceMemberName = 'EMAIL'
+          ControlMemberName = 'Text3'
+        end
+        item
+          SourceMemberName = 'TELEFONE'
+          ControlMemberName = 'Text4'
+        end
+        item
+          SourceMemberName = 'FOTO'
+          ControlMemberName = 'Image5'
+        end>
+      FillHeaderExpressions = <>
+      FillBreakGroups = <>
+    end
+  end
+  object ActionList1: TActionList
+    Left = 328
+    Top = 216
+    object ChangeTabAction1: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabItem2
+    end
+    object ChangeTabAction2: TChangeTabAction
+      Category = 'Tab'
+      Tab = TabItem1
+    end
+    object TakePhotoFromLibraryAction1: TTakePhotoFromLibraryAction
+      Category = 'Media Library'
+      Editable = True
+      OnDidFinishTaking = TakePhotoFromLibraryAction1DidFinishTaking
+    end
+    object TakePhotoFromCameraAction1: TTakePhotoFromCameraAction
+      Category = 'Media Library'
+      Editable = True
+      OnDidFinishTaking = TakePhotoFromCameraAction1DidFinishTaking
+    end
+  end
+  object ImageList1: TImageList
+    Source = <>
+    Destination = <>
+    Left = 328
+    Top = 264
+  end
+end
